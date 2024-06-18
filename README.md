@@ -2,7 +2,7 @@
 
 Classe a ser implementada conforme solicitado
 
-classDiagram
+```classDiagram
     Iphone *--> Navegador na Internet :1-* 
     Iphone *--> Aparelho Telefônico :1-* 
     Iphone *--> Reprodutor Musical:1-* 
@@ -19,3 +19,4 @@ classDiagram
     Navegador na Internet : +exibirPagina(String url)
     Navegador na Internet : +adicionarNovaAba()
     Navegador na Internet : +atualizarPagina()
+```
