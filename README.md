@@ -2,7 +2,7 @@
 
 Classe a ser implementada conforme solicitado
 
-```
+```mermaid
 classDiagram
     Iphone *--> Navegador na Internet :1-* 
     Iphone *--> Aparelho Telefônico :1-* 
